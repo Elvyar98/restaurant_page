@@ -1,1 +1,3 @@
-alert("Lets go");
+import { RenderHomePage } from "./homePage.js";
+
+RenderHomePage();
