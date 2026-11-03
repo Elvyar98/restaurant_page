@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #faf0e6;
+}
+
+#content {
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+  background-color: #fff0db;
+}
+
+header {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*
+Source - https://stackoverflow.com/a/1368286
+Posted by adardesign, modified by community. See post 'Timeline' for change history
+Retrieved 2026-11-03, License - CC BY-SA 4.0
+*/
+
+button {
+  background: none !important;
+  border: none;
+  padding: 0 !important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #d9b99b;
+  text-decoration: underline;
+  cursor: pointer;
+}
